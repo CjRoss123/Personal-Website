@@ -1,0 +1,42 @@
+$primary-color: #333;
+$pad: 15px;
+
+.navs {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $primary-color;
+  }
+
+  li {
+    float: left;
+  }
+
+  a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: $primary-color;
+  }
+}
+
+
+.button {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+
+footer {
+  background-color: #555;
+  color: white;
+  padding: $pad;
+  margin-top: 35px;
+}
